@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "xor",
+      "setup": "sudo pip3 install pytest; sudo pip3 install numpy",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
