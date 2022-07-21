@@ -17,7 +17,7 @@ def calculate_layer1(x,w):
 def calculate_layer2(out,w):
         aug_out = np.append(out,[1]) #append 1 to the output of layer1
         layer2=calculate_layer1(aug_out,w)
-        return layer
+        return layer2
 
 
 
